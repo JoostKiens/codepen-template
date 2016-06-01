@@ -69,5 +69,5 @@ gulp.task('html', function () {
 })
 
 
-gulp.task('default', ['watch', 'connect'])
-gulp.task('build', ['compile, css'])
+gulp.task('default', ['watch', 'connect', 'css'])
+gulp.task('build', ['compile', 'css'])
