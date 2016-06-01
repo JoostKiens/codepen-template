@@ -1,0 +1,42 @@
+{
+  "name": "codepen-template",
+  "version": "1.0.0",
+  "description": "Codepen starter template for local development, Babel, Normalize.css, Autoprefixer, Lodash.js, PostCSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Codepen",
+    "Babel",
+    "Autoprefixer",
+    "Lodash",
+    "PostCSS",
+    "Normalize.css"
+  ],
+  "author": "Joost Kiens",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^4.0.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "postcss-import": "^8.1.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "presets": [
+    "es2015"
+  ],
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "normalize.css": "^4.1.1"
+  }
+}
